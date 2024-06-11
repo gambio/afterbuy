@@ -1,0 +1,38 @@
+{
+    "name": "afterbuy",
+    "title": {
+        "en": "Afterbuy",
+        "de": "Afterbuy"
+    },
+    "description": {
+        "en": "<p>The Afterbuy module in the Gambio shop enables seamless integration and automation of sales and administrative processes by synchronizing orders, inventory, and customer data between the Gambio shop and Afterbuy.</p>",
+        "de": "<p>Das Afterbuy-Modul im Gambio-Shop ermöglicht die nahtlose Integration und Automatisierung von Verkaufs- und Verwaltungsprozessen, indem es Bestellungen, Lagerbestände und Kundendaten zwischen dem Gambio-Shop und Afterbuy synchronisiert.</p>"
+    },
+    "requirements": {
+        "needed": {
+            "shop": {
+                "shopVersions": [
+	                ">4.9"
+                ]
+            },
+            "server": {
+                "phpVersions": [],
+                "mysqlVersions": []
+            },
+            "themes": [],
+            "receiptFiles": []
+        },
+        "hidden": {
+            "shop": {
+                "shopVersions": []
+            },
+            "server": {
+                "phpVersions": [],
+                "mysqlVersions": []
+            },
+            "themes": [],
+            "receiptFiles": [
+            ]
+        }
+    }
+}
